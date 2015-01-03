@@ -1,12 +1,15 @@
 #!/usr/bin/env bash
 
+# for virtualenvwrapper
 #. ~/.virtualenvs/python2.7/bin/activate
-source ../env/bin/activate
+
+# for local manual run
+#source ../env/bin/activate
 
 set -e
 set -x
 
-#rm -f pep8.log pyflakes.log
+rm -f pep8.log pyflakes.log
 
 ./test.py
 
