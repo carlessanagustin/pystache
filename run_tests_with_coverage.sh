@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 
-. ~/.virtualenvs/python2.7/bin/activate
+#. ~/.virtualenvs/python2.7/bin/activate
+source ../env/bin/activate
 
-rm -f pep8.log pyflakes.log
+#rm -f pep8.log pyflakes.log
 
 PYTHONPATH=. python -m coverage run test.py
 
