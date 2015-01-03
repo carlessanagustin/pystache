@@ -7,8 +7,8 @@
 #source ../env/bin/activate
 
 # delete old results
-rm -f coverage
-rm -f coverage.xml
+#rm -fR coverage
+#rm -f coverage.xml
 
 rm -f pep8.log pyflakes.log
 

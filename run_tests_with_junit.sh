@@ -8,6 +8,6 @@ set -e
 #source ../env/bin/activate
 
 # delete old results
-#rm -f python_tests_xml
+#rm -fR python_tests_xml
 
 ./test.py
